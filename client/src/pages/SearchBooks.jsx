@@ -76,7 +76,6 @@ const SearchBooks = () => {
       return false;
     }
 
-    console.log(bookToSave)
     try {
       // new route
       await saveBook({variables: { newBook: {...bookToSave} } });
